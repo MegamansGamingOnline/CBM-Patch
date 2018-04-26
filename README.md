@@ -74,6 +74,6 @@ Beta 1.1
 --Quake Damage 10 --> 15
 --Quaking down is now much faster
 
-==Quint **Work in Progress**
+==Quint *Work in Progress*
 --Buster fire rate same as Maestro's
 --Dash delay before repeating
