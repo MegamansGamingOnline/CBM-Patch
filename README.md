@@ -74,6 +74,23 @@ Beta 1.1
 --Quake Damage 10 --> 15
 --Quaking down is now much faster
 
-==Quint *Work in Progress*
---Buster fire rate same as Maestro's
---Dash delay before repeating
+==Quint
+--Buster now fires QShot projectile
+--Dash delay before repeating 6 --> 18
+--Now has 75% shield when attacking with pogo alt
+
+==Magmaman
+--Refuel now gives 40% speed reduction instead of stopping altogether
+--Refuel has an aoe attack, don't hug him
+--No longer loses ammo on hit
+
+==MegaWaterS
+--Altfires swapped
+--Water cannon now does damage (2)
+--Mainfire buffs
+-Damage 9 --> 11
+-Speed 35 --> 40
+--While in bubble form, new mainfire is available
+-Damage (10), Speed (50)
+-Disappears in 30 tics
+-Propels whoever is hit closer to you
