@@ -167,3 +167,43 @@ CBM Beta 1.1
 --New HP base, 85 --> 110
 
 *END OF BETA 1.1*
+
+CBM Beta 1.2
+
+==General
+
+--Ground & Drill are no longer sucked into BHB while digging (Done by Bull Gator & Ru5tK1ng)
+ 
+==MegaWaterS
+
+--Harpoon2 lifespan tic 30 --> 15
+
+-Tic fire rate 32 --> 16
+
+-Damage 10 --> 15
+
+-Now has a trail effect & plays sound on death
+
+-OBits updated
+
+==Alien
+
+--No longer has thrust or gravity on alt summon
+
+==Shademan
+
+--Tic delay for every explosion when latched onto enemy 10 --> 8
+
+--Damage per tic 5 --> 6
+
+--Movespeed on ally grab 120 --> 200
+
+--Movespeed on enemy grab 130 --> 160
+
+==Airman
+
+--Mainfire spread 18 --> 9
+
+--Mainfire shooter speed 28 --> 35
+
+*END OF BETA 1.2*
