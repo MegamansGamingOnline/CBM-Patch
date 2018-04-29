@@ -207,3 +207,77 @@ CBM Beta 1.2
 --Mainfire shooter speed 28 --> 35
 
 *END OF BETA 1.2*
+
+CBM Patch Beta 1.2h
+
+==Gravityman
+
+--Altfire slams for all attacks are swapped
+
+-Slamming while not flipped flings people up
+
+-Slamming while flipped flings people down
+
+-Slam explosion damage 5 --> 8
+
+-Buster speed 50 --> 60
+
+==Airman
+
+--Mainfire fixed for all gamemodes
+
+==MegaWaterS
+
+--No longer has ammo stoppage when using mainfire
+
+--Water cannon damage 2 --> 3
+
+--Harpoon 1 Damage 11 Tic Delay 16 --> Damage 12 Tic Delay 12
+
+--Harpoon 2 Scale 2.5, Radius 7, Height 10, Speed 50, Tics 15 --> 
+
+-New Harpoon 2 Scale 4, Radius 8, Height 12, Speed 60, Tics 20
+
+--Bubble damage division integer 6 --> 3 (increases overall damage of bubble shield)
+
+==Jupiter
+
+--Reverted buffs
+
+--Upward thrust initial ammo use 70 --> 80
+
+--Lightning explosion size 28 --> 24
+
+--Altfire ammo use on thrust 50 --> 70
+
+==Shademan
+
+--Armor Savepercent 80 --> 70
+
+--Armor Saveamount 40 --> 33
+
+==Roll
+
+--No longer deflects projectiles
+
+==Magnetman
+
+--Re-spaghettified to beta 5 release
+
+--Passive ammo regen doubled
+
+--Swordman
+
+--Alt torso velocity 6 --> 7
+
+--When attacking with alt, moving is speed up by 140%
+
+--Speed lasts for 100 tics, goes away when tics runs out or if torso is cast back
+
+==Gutsman
+
+--Rocks changed back to v9-beta3h sprites
+
+--**DUN DUNN**
+
+*END OF BETA 1.2h*
