@@ -1,88 +1,181 @@
 # CBM-Patch
 Current patch file of the actors with changes.
 
-CBM Patch Beta 1
+CBM Patch Beta 1.3
 
-==Gravityman
+==Waveman & MegaWaterS
 
---Spheres removed, charged alt now fires a 3-burst array of regular slams
+--Sounds updated and rearmed
 
---Slam max damage 6 --> 5
+==Waveman
 
---Buster damage 14 --> 15
+--Hook speed doubled (55 --> 110)
 
---Each slam takes 20 ammo from charge shot, taking 6 bars of ammo for every charge attack
+--Sprite animations updated by Ecl1p5e
 
+--Wavejumping returns with a vengance
 
-==Swordman
+==Stoneman
 
---FlameSword trail damages from 19, 20 --> 17
+--Fixed issue with alt
 
---Bits no longer spawn on ground swipe
+==MegaWaterS
 
---Movespeed .83 --> .7
-
---Sword torso velocity 8 --> 3
-
---Sword torso max damage 14 --> 12
-
-
-==Crystalman
-
---HP 125 --> 85
-
---Large eye will now always do 35 damage
-
---Crystal pellets gained double life span
-
--Altfire delay crystal 15 --> 30
-
--Altfire crystal bounce count 4 --> 6
-
--Altfire crystal damage 14 with P. Protect --> 7 always
-
--Mainfire split crystal reactiontime 3 --> 6
-
-
-==Hornetman
-
---Homing ranged reduced to 32 map units
-
---Homing is now in a cone formation, bees deviating from target will have lesser chance of homing
-
---Unhomed bee damage is now 14, homed bee damage is now 6
-
---Altfire reverted to honey blob
-
---Blob will now do 12 damage, with 30 speed
-
-
-==Windman
-
---Fire delay 6 --> 9
-
---Mainfire now takes two alt ammo, no longer fires if empty
-
-
-==Frostman
-
---Can now hold mainfire/altfire indefinitely
-
---Ice Wave speed 20 --> 30
-
---Ice Seeds now instantly hit the ground
+--Shield division integer 3 --> 4
 
 ==Concreteman
 
---Delay after dash 10 --> 35
+--Block throw reverted
 
-==Splashwoman
+-Speed 68 --> 80
 
---Power song 10% buff --> 20% buff
+-Now stuns people on hit
 
---Speed song 50% buff --> 20% buff
+-No more gravity shenanigans
 
-*END OF BETA 1*
+--Now requires full ammo to utilize dash
+
+--Jumping in the air and releasing alt activates leap
+
+-Leap requires half ammo to activate
+
+==Chargeman
+
+--Alt damage (3+user_P) --> 10
+
+--Alt explosion damage (6+user_P*0.5) --> 10
+
+--Alt speed 30 --> 45
+
+--Alt invulnerability is removed
+
+==Crashman
+
+--Ammo taken from main and alt 5/7 --> 6/6
+
+--Same applies for ammo needed to fire
+
+--Both projectiles will now do 18 damage on hit
+
+==BBAMegaman
+
+--Speed base core --> 0.85 Foward, 0.83 Sideways
+
+END OF BETA 1.3
+
+CBM Patch Beta 1.2h
+
+==Gravityman
+
+--Altfire slams for all attacks are swapped
+
+-Slamming while not flipped flings people up
+
+-Slamming while flipped flings people down
+
+-Slam explosion damage 5 --> 8
+
+-Buster speed 50 --> 60
+
+==Airman
+
+--Mainfire fixed for all gamemodes
+
+==MegaWaterS
+
+--No longer has ammo stoppage when using mainfire
+
+--Water cannon damage 2 --> 3
+
+--Harpoon 1 Damage 11 Tic Delay 16 --> Damage 12 Tic Delay 12
+
+--Harpoon 2 Scale 2.5, Radius 7, Height 10, Speed 50, Tics 15 -->
+
+-New Harpoon 2 Scale 4, Radius 8, Height 12, Speed 60, Tics 20
+
+--Bubble damage division integer 6 --> 3 (increases overall damage of bubble shield)
+
+==Jupiter
+
+--Reverted buffs
+
+--Upward thrust initial ammo use 70 --> 80
+
+--Lightning explosion size 28 --> 24
+
+--Altfire ammo use on thrust 50 --> 70
+
+==Shademan
+
+--Armor Savepercent 80 --> 70
+
+--Armor Saveamount 40 --> 33
+
+==Roll
+
+--No longer deflects projectiles
+
+==Magnetman
+
+--Re-spaghettified to beta 5 release
+
+--Passive ammo regen doubled
+
+--Swordman
+
+--Alt torso velocity 6 --> 7
+
+--When attacking with alt, moving is speed up by 140%
+
+--Speed lasts for 100 tics, goes away when tics runs out or if torso is cast back
+
+==Gutsman
+
+--Rocks changed back to v9-beta3h sprites
+
+--DUN DUNN
+
+END OF BETA 1.2h
+
+CBM Beta 1.2
+
+==General
+
+--Ground & Drill are no longer sucked into BHB while digging (Done by Bull Gator & Ru5tK1ng)
+
+==MegaWaterS
+
+--Harpoon2 lifespan tic 30 --> 15
+
+-Tic fire rate 32 --> 16
+
+-Damage 10 --> 15
+
+-Now has a trail effect & plays sound on death
+
+-OBits updated
+
+==Alien
+
+--No longer has thrust or gravity on alt summon
+
+==Shademan
+
+--Tic delay for every explosion when latched onto enemy 10 --> 8
+
+--Damage per tic 5 --> 6
+
+--Movespeed on ally grab 120 --> 200
+
+--Movespeed on enemy grab 130 --> 160
+
+==Airman
+
+--Mainfire spread 18 --> 9
+
+--Mainfire shooter speed 28 --> 35
+
+END OF BETA 1.2
 
 CBM Beta 1.1
 
@@ -166,118 +259,82 @@ CBM Beta 1.1
 
 --New HP base, 85 --> 110
 
-*END OF BETA 1.1*
+END OF BETA 1.1
 
-CBM Beta 1.2
-
-==General
-
---Ground & Drill are no longer sucked into BHB while digging (Done by Bull Gator & Ru5tK1ng)
- 
-==MegaWaterS
-
---Harpoon2 lifespan tic 30 --> 15
-
--Tic fire rate 32 --> 16
-
--Damage 10 --> 15
-
--Now has a trail effect & plays sound on death
-
--OBits updated
-
-==Alien
-
---No longer has thrust or gravity on alt summon
-
-==Shademan
-
---Tic delay for every explosion when latched onto enemy 10 --> 8
-
---Damage per tic 5 --> 6
-
---Movespeed on ally grab 120 --> 200
-
---Movespeed on enemy grab 130 --> 160
-
-==Airman
-
---Mainfire spread 18 --> 9
-
---Mainfire shooter speed 28 --> 35
-
-*END OF BETA 1.2*
-
-CBM Patch Beta 1.2h
+CBM Patch Beta 1
 
 ==Gravityman
 
---Altfire slams for all attacks are swapped
+--Spheres removed, charged alt now fires a 3-burst array of regular slams
 
--Slamming while not flipped flings people up
+--Slam max damage 6 --> 5
 
--Slamming while flipped flings people down
+--Buster damage 14 --> 15
 
--Slam explosion damage 5 --> 8
+--Each slam takes 20 ammo from charge shot, taking 6 bars of ammo for every charge attack
 
--Buster speed 50 --> 60
+==Swordman
 
-==Airman
+--FlameSword trail damages from 19, 20 --> 17
 
---Mainfire fixed for all gamemodes
+--Bits no longer spawn on ground swipe
 
-==MegaWaterS
+--Movespeed .83 --> .7
 
---No longer has ammo stoppage when using mainfire
+--Sword torso velocity 8 --> 3
 
---Water cannon damage 2 --> 3
+--Sword torso max damage 14 --> 12
 
---Harpoon 1 Damage 11 Tic Delay 16 --> Damage 12 Tic Delay 12
+==Crystalman
 
---Harpoon 2 Scale 2.5, Radius 7, Height 10, Speed 50, Tics 15 --> 
+--HP 125 --> 85
 
--New Harpoon 2 Scale 4, Radius 8, Height 12, Speed 60, Tics 20
+--Large eye will now always do 35 damage
 
---Bubble damage division integer 6 --> 3 (increases overall damage of bubble shield)
+--Crystal pellets gained double life span
 
-==Jupiter
+-Altfire delay crystal 15 --> 30
 
---Reverted buffs
+-Altfire crystal bounce count 4 --> 6
 
---Upward thrust initial ammo use 70 --> 80
+-Altfire crystal damage 14 with P. Protect --> 7 always
 
---Lightning explosion size 28 --> 24
+-Mainfire split crystal reactiontime 3 --> 6
 
---Altfire ammo use on thrust 50 --> 70
+==Hornetman
 
-==Shademan
+--Homing ranged reduced to 32 map units
 
---Armor Savepercent 80 --> 70
+--Homing is now in a cone formation, bees deviating from target will have lesser chance of homing
 
---Armor Saveamount 40 --> 33
+--Unhomed bee damage is now 14, homed bee damage is now 6
 
-==Roll
+--Altfire reverted to honey blob
 
---No longer deflects projectiles
+--Blob will now do 12 damage, with 30 speed
 
-==Magnetman
+==Windman
 
---Re-spaghettified to beta 5 release
+--Fire delay 6 --> 9
 
---Passive ammo regen doubled
+--Mainfire now takes two alt ammo, no longer fires if empty
 
---Swordman
+==Frostman
 
---Alt torso velocity 6 --> 7
+--Can now hold mainfire/altfire indefinitely
 
---When attacking with alt, moving is speed up by 140%
+--Ice Wave speed 20 --> 30
 
---Speed lasts for 100 tics, goes away when tics runs out or if torso is cast back
+--Ice Seeds now instantly hit the ground
 
-==Gutsman
+==Concreteman
 
---Rocks changed back to v9-beta3h sprites
+--Delay after dash 10 --> 35
 
---**DUN DUNN**
+==Splashwoman
 
-*END OF BETA 1.2h*
+--Power song 10% buff --> 20% buff
+
+--Speed song 50% buff --> 20% buff
+
+END OF BETA 1
