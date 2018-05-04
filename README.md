@@ -1,6 +1,36 @@
 # CBM-Patch
 Current patch file of the actors with changes.
 
+END OF V. 1
+
+==General
+
+--Junk, Pirate, and MWS now have shield icons (done by Ecl1p5e)
+
+==MegaWaterS
+
+--Tic delay for MegaHarpoon 16 --> 24
+
+--Drag more optimized
+
+==Ringman
+
+==Empowered rings power boost *12 -->*8 (nerf on base damage and ripper)
+
+==Frostman
+
+--Frost stun time 30 --> 15
+
+==Waveman
+
+--Hook ammo 750 --> 500
+
+Competitive CBM Patch V 1
+
+Competitive CBM Patch Public Version (further changes above will now be marked as such)
+
+END OF BETA 1.3h
+
 ==Crashman
 
 --Projectiles will now always do 20 damage
