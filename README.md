@@ -1,7 +1,21 @@
 # CBM-Patch
 Current patch file of the actors with changes.
 
-CBM Patch Beta 1.3
+==Crashman
+
+--Projectiles will now always do 20 damage
+
+==Concreteman
+
+--Updated actors
+
+==Ringman
+
+--Rings now always sparkle once empowered
+
+CBM Patch Beta 1.3h
+
+END OF BETA 1.3
 
 ==Waveman & MegaWaterS
 
@@ -61,9 +75,9 @@ CBM Patch Beta 1.3
 
 --Speed base core --> 0.85 Foward, 0.83 Sideways
 
-END OF BETA 1.3
+CBM Patch Beta 1.3
 
-CBM Patch Beta 1.2h
+END OF BETA 1.2h
 
 ==Gravityman
 
@@ -135,9 +149,9 @@ CBM Patch Beta 1.2h
 
 --DUN DUNN
 
-END OF BETA 1.2h
+CBM Patch Beta 1.2h
 
-CBM Beta 1.2
+END OF BETA 1.2
 
 ==General
 
@@ -175,9 +189,9 @@ CBM Beta 1.2
 
 --Mainfire shooter speed 28 --> 35
 
-END OF BETA 1.2
+CBM Patch Beta 1.2
 
-CBM Beta 1.1
+END OF BETA 1.1
 
 ==Swordman
 
@@ -259,9 +273,9 @@ CBM Beta 1.1
 
 --New HP base, 85 --> 110
 
-END OF BETA 1.1
+CBM Patch Beta 1.1
 
-CBM Patch Beta 1
+END OF BETA 1
 
 ==Gravityman
 
@@ -337,4 +351,4 @@ CBM Patch Beta 1
 
 --Speed song 50% buff --> 20% buff
 
-END OF BETA 1
+CBM Patch Beta 1
