@@ -161,7 +161,7 @@ END OF BETA 1.2h
 
 ==Magnetman
 
---Re-spaghettified to beta 5 release
+--Reverted to beta 5 release
 
 --Passive ammo regen doubled
 
