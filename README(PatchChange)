@@ -1,0 +1,113 @@
+==SniperJoe
+--Hitting with buster shot now gives 10 crate ammo (no ammo on death)
+--Shield now has a 5 tic delay before appearing
+--Crate damage 10 --> 50
+--MG Grenade Launcher now takes twice as long to fire
+--Grenade from MG has 40 speed, 30 damage
+
+
+==Iceman
+--Firing main now takes one ammo instead of giving one ammo
+--Now has two weapons
+-Main weapon fires pocket ice
+-Second weapon shoots statues
+
+
+==Elecman
+--HUD updated by Ecl1p5e
+
+
+==Crashman
+--Ammo regen slowed by 1/2
+--Mines now take 9 ammo to fire with slower firing animation
+--Mine Detonation has changed stats
+-Explosion 18 --> 25
+-Radius 72 --> 86
+-FullDMRadius 16 --> 20
+
+
+==Needleman
+--Weapons reorganized
+--Weapon 1
+-Mainfire does Needle Cannon
+-Altfire does Rev
+--Weapon 2 
+-Mainfire does needles
+-Altfire does headbutt
+
+
+==Hardman
+--Fist speed 50 --> 45
+
+
+==Shadowman 
+--Can dash
+--Dash can be activated if 14 ammo is available
+--Dash can be cancelled anytime
+
+
+==Crystalman
+--Cooldown is equivalent to charge level
+--Split Crystal damage 9 --> 8
+
+
+==Napalmman
+--HUD and sounds updated by Ecl1p5e
+--Walking now produces tread noise
+
+
+==Gravityman
+--Sphere is now a projectile
+-Scale 2.5 --> 3
+-Radius 6 --> 11
+-Height 6 --> 11
+-Must hit people with it to fling them up
+-All spheres have the same effect
+-Sphere speed increased 13 --> 25
+-All fling explosion damage 8 --> 6
+-Explosion radius for spheres 300 --> 400 (CBM has 490)
+--Slam now always does 25 damage
+--Costs 60 ammo to throw sphere (6 bars)
+
+==Darkman3
+--First weapon and Altfire wall impact sprites added (Courtesy of Malware)
+--Implemented by Ecl1p5e
+
+==Centaurman
+--Updated by Ecl1pse
+--MaxStepHeight 0 > 32, MaxDropOffHeight 0 > 32
+--Stomp sounds now stop while in mid-air
+
+
+==Cloudman
+--No ammo bolt changed
+--Damage 25 --> 15
+--Fire tic rate 27 tics --> 15 tics
+
+
+==Tenguman
+--Uses set damage method for slam
+--Does 40 damage
+
+
+==Swordman
+--Replaced speedboost on alt with dash on alt end
+--Torso tic delay before returning 10 --> 35
+
+
+==Jewelman
+--Movespeed .75 --> .8
+--Sidespeed .73 --> .78
+
+
+==Tornadoman
+--Uses set damage method for slam
+--Now does 40 damage
+
+
+==Fakeman
+--Tic delay between fire 5 --> 10
+--Stray shots now do 12 damage with no spread
+--Shot buffer for stray shots 8 tics --> 12 tics
+--Delay before baton 35 tics --> 18 tics
+--Baton sprites updated by s3ntey
