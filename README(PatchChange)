@@ -1,3 +1,25 @@
+1.1 Hotfix Below
+
+==Waveman
+--Hookshot updated to have less issues in maps
+--Fixed hookshot not hooking on to people
+
+
+==Iceman
+--HUD updated for both weapons
+--Slasher now fires at double delay once out of ammo
+
+
+==Chargeman
+--Sounds fixed, no more ninja charge
+
+
+==Napalmman
+--Tread sound disabled
+
+
+1.1 Changes Below
+
 ==SniperJoe
 --Hitting with buster shot now gives 10 crate ammo (no ammo on death)
 --Shield now has a 5 tic delay before appearing
