@@ -1,3 +1,107 @@
+Patch 1.2 Below
+
+==Iceman
+--Both weapons have icons (Ecl1p5e)
+--Altfire now plays flurry sound (Ecl1p5e)
+--Pocket Ice tic lifespan 35 --> 18
+--Damage 3 --> 2
+
+==Oilman
+--Can use snap while oilsliding
+--Snap ammo reduced 224 -->112
+--Altfire won't slow down snap ammo regen
+
+==Crashman
+--Ammo regen reverted back to normal
+--Regular bombs now stick on people
+--Deals 4 initial damage, explodes for 20
+--Mine direct damage 20 --> 15
+
+==Flashman
+--Projectile lifespan 10 --> 8
+--Damage 6 --> 5
+
+==Topman
+--Altfire spread 15 --> 9
+
+==Ringman
+--Tics before ring callback 6 --> 25
+--Tics before ring prepare 1 --> 20
+
+==Pharaohman
+--HUD cutoff fixed
+--Added Weapon 2: Pharaoh Punch
+-Done by Ecl1p5e
+--Replaces altfire
+--Added weapon icons for both weapons
+
+==Chargeman
+--Alt now takes 1/4ths ammo instead of 1/3ds
+--Main tackle damage 8 --> 5
+--Armor save 50 --> 33.3
+
+==Yamatoman
+--Projectiles returning now rip for 4 damage
+--Return range 322 --> 500
+
+==Flameman
+--Main and alt projectiles now glides across the ground
+-Main velocity is 5
+-Alt velocity is 2
+--Loop cycle 12 --> 6 (half lifespan)
+--Mainfire is now a stepmissile (16 max stepheight)
+--Ammo regen boosted, 7 seconds for alt --> 5.5 seconds
+
+==Freezeman
+--Has a dedicated second ammo bar for mainfire
+-Takes 14 shots before ammo recharge
+--Mainfire damage 19 --> 20
+--Mainfire & Ceiling icicle bits no longer has +THRUACTORS
+--Altfire is no longer a ripper
+-On player hit, deals 35 damage and freezes them
+-Explosion damage is 25, don't get icc'd
+--Altfire now forms 8 icicle spawners on ceiling and floor
+
+==Astroman
+--Weapons are now split in half
+--Mainfire for both only summon main projectiles
+--First Weapon : AstroCloneBoss
+--Altfire now summons a clone on full ammo
+--Clone can now follow your shots
+-Clone gets slower if it's following your shots
+--Second Weapon : AstroCrushBoss
+--Altfire does regular Astro Crush
+--Projectile damage for Astro Shot & Clone will always do 13
+
+==OriginalDuo
+--Altfire now requires 25% ammo to charge
+-Indicator added to show it
+--Charge takes 25% ammo on end
+--Mainfire rate 12 tics --> 20 tics
+
+==Jewelman
+--Speed jewels boosted, velocity * 0.3 --> 0.5
+--All damage boosted by 2 for non-explosive jewels
+
+==Magmaman
+--Slowdown on item 40% --> 75%
+--Magma shield damage 4 --> 6
+
+==Magicman
+--Mainfire takes double ammo to use
+--Damage 10 --> 12
+--Fake cards return 10 ammo on hit
+--Hitstun removed
+
+==Venus
+--Tickers no longer thrust up
+--Ticker speed 24 --> 25
+--B. Bomb Explosion damage 11 --> 15
+
+
+==================================================================================
+
+
 1.1 Hotfix Below
 
 ==Waveman
