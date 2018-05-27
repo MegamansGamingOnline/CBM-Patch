@@ -3,13 +3,26 @@ Patch 1.2 Below
 ==Iceman
 --Both weapons have icons (Ecl1p5e)
 --Altfire now plays flurry sound (Ecl1p5e)
---Pocket Ice tic lifespan 35 --> 18
---Damage 3 --> 2
+-Pocket Ice tic lifespan 35 --> 18
+-Damage 3 --> 2
+-No longer slows on hit
+--Ice Laser no longer passes through people
+-On death, 20 damage statue explosion
+-Returns 7 ammo
+--Statues now explode regardless of damage type
+-Statue explosion 10 damage --> 15
+--Ice Clouds now go twice as fast
+-Icicle Cloud explosion damage 2 --> 5
 
 ==Oilman
 --Can use snap while oilsliding
 --Snap ammo reduced 224 -->112
 --Altfire won't slow down snap ammo regen
+--Puddle lifespan changed
+-Main & Alt puddle lifespan --> 40
+--Puddles now burn enemies
+-Mainfire puddle burns 6 per explosion
+-Altfire puddles burns 4 per explosion
 
 ==Crashman
 --Ammo regen reverted back to normal
@@ -21,12 +34,14 @@ Patch 1.2 Below
 --Projectile lifespan 10 --> 8
 --Damage 6 --> 5
 
+==Heatman
+--First and Second weapon HUD animations changed to better resemble skin sprites
+
 ==Topman
 --Altfire spread 15 --> 9
 
 ==Ringman
---Tics before ring callback 6 --> 25
---Tics before ring prepare 1 --> 20
+--Time to callback rings increased by 15 tics
 
 ==Pharaohman
 --HUD cutoff fixed
@@ -36,15 +51,18 @@ Patch 1.2 Below
 --Added weapon icons for both weapons
 
 ==Chargeman
---Alt now takes 1/4ths ammo instead of 1/3ds
+--Alt ammo take 1/3 of bar --> 1/4ths of bar
 --Main tackle damage 8 --> 5
 --Armor save 50 --> 33.3
 
 ==Yamatoman
---Projectiles returning now rip for 4 damage
+--Projectiles down or returning deal 4 damage
 --Return range 322 --> 500
+--Return grab range 92 --> 46
 
 ==Flameman
+--Mainfire now gives 1 ammo on fire
+-(About half a bar per fire)
 --Main and alt projectiles now glides across the ground
 -Main velocity is 5
 -Alt velocity is 2
@@ -54,7 +72,8 @@ Patch 1.2 Below
 
 ==Freezeman
 --Has a dedicated second ammo bar for mainfire
--Takes 14 shots before ammo recharge
+-Alt ammo regen takes 1.5x longer then main
+-Mainfire ammo holds 14 shots 
 --Mainfire damage 19 --> 20
 --Mainfire & Ceiling icicle bits no longer has +THRUACTORS
 --Altfire is no longer a ripper
@@ -66,32 +85,31 @@ Patch 1.2 Below
 --Weapons are now split in half
 --Mainfire for both only summon main projectiles
 --First Weapon : AstroCloneBoss
---Altfire now summons a clone on full ammo
---Clone can now follow your shots
--Clone gets slower if it's following your shots
+-Altfire now summons a clone on full ammo
+-Clone can now follow your shots
 --Second Weapon : AstroCrushBoss
---Altfire does regular Astro Crush
+-Altfire does regular Astro Crush
 --Projectile damage for Astro Shot & Clone will always do 13
 
 ==OriginalDuo
 --Altfire now requires 25% ammo to charge
 -Indicator added to show it
 --Charge takes 25% ammo on end
---Mainfire rate 12 tics --> 20 tics
+--Mainfire rate 12 tics --> 18 tics
 
 ==Jewelman
 --Speed jewels boosted, velocity * 0.3 --> 0.5
 --All damage boosted by 2 for non-explosive jewels
+--Green jewels give bounce pattern 2-3-4-5
+--Reaction time for blue jewels changed
+-20(1), 30(2), 40(3), 50(4)
 
 ==Magmaman
 --Slowdown on item 40% --> 75%
 --Magma shield damage 4 --> 6
 
 ==Magicman
---Mainfire takes double ammo to use
 --Damage 10 --> 12
---Fake cards return 10 ammo on hit
---Hitstun removed
 
 ==Venus
 --Tickers no longer thrust up
