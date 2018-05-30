@@ -60,7 +60,7 @@ Patch 1.2 Hotfix Changes
 -Bomb 2 thrust 2 --> 0
 --Thrust actor for all mines 5 --> 10
 --Direct hit does more damage relative to mine amount
--1 mine --> 25, 2 mine --> 30, 3 mine --> 35
+-1 mine --> 25, 2 mine --> 33, 3 mine --> 40
 --Item now cycles back to 1 if bar is full
 
 ==Jewelman
