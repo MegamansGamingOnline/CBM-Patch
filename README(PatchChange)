@@ -1,3 +1,77 @@
+Patch 1.2 Compat. Changes
+
+==Roll, Cutman, Elecman, Shadow, Bright, Ring, Gravity, Napalm, Chargeman, Dark2, Wind, Sword, Concrete, Cold, Venus, Quint
+--RESIGNED to v5hh, balance changes still apply
+
+==DocRobot
+--Can no longer copy homing weapons
+-Subject to change soon
+
+==Geminiman
+--Ammo reworked
+--Laser now takes 1/7ths ammo per fire
+-Stops firing if ammo is not present
+--Buster damage 10 --> 12
+--Clone adjusted to fit ammo
+-Old stats 100 HP w/2.0 damage factor
+-New stats 28 HP w/0.5 damage factor
+
+==Plantman
+--HUD updated by Lamp
+
+==Shademan
+--Flight changed according to v9b
+--Flight armor & damage changes still apply
+
+==Concreteman
+--Stomp was removed
+--New Dash stats
+-Damage 25 --> 33
+-Dash projectiles removed again
+-Hitting someone with the dash will push them away
+--Charge for block and dash extended by 25%
+
+==Fakeman
+--Delay between shots 10 --> 8
+
+==Blademan
+--Shot radius 8 --> 12
+
+============================================================
+
+Patch 1.2 Hotfix Changes
+
+==Crashman
+--Regular bomb damage 25 --> 20
+
+==Gyroman
+--Mainfire no longer rebounds on death
+--Gyro projectile speed 40 --> 45
+
+==Flameman
+--Altfire now summons 2 extra spawners
+
+==Freezeman
+--Altfire now cycles 6 times instead of 5
+
+==Burstman
+--Thrust actors for main bubbles changed
+-Bomb 1 thrust 6 --> 2
+-Bomb 2 thrust 2 --> 0
+--Thrust actor for all mines 5 --> 10
+--Direct hit does more damage relative to mine amount
+-1 mine --> 25, 2 mine --> 30, 3 mine --> 35
+--Item now cycles back to 1 if bar is full
+
+==Jewelman
+--Bounce count is now 2-->4-->6-->8
+--Reaction time for all blue jewels boosted
+
+==Nitroman
+--Now takes ammo if nitro is airborne in bike
+
+===============================================================
+
 Patch 1.2 Below
 
 ==Iceman
